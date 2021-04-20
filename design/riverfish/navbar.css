@@ -8,13 +8,15 @@
 
 .navbar-logo{
     width: 100%;
-
+    
     position: sticky;
     top: 0;
+   
 }
 
 #navbar{
-    background-color: var(--secondary-color);
+    /* background-color: var(--secondary-color); */
+    background-color: white;
     height: 50px;
     display: flex;
     justify-content: center;
@@ -22,16 +24,25 @@
     
 }
 
+.navbar-logo i{
+    color: rgb(34, 34, 34);
+    font-size: 20px;
+    position: sticky;
+    background-color: white;
+
+}
 .menu-bars{
-    margin-left: 2rem;
+    
     font-size: 2rem;
-    color: #fff;
+    color: rgb(0, 0, 0);
+    margin-left: 2%;
 
 }
 .menu-barsright{
-    margin-left: 85%;
+   
     font-size: 2rem;
     color: #fff;
+    margin-right: 2%;
 }
 
 
@@ -121,7 +132,6 @@
 
 .fa-ellipsis {
     color: white;
-    padding-right: 100px;
     align-items: center;
     justify-content: center;
 }
@@ -135,24 +145,18 @@
 }
 
 
-@media (max-width: 768px){
+@media (max-width: 500px){
 
 
 .menu-bars{
-    margin-left: 1rem;
+   
     font-size: 2rem;
     color: #fff;
 
 }
-.menu-barsright{
-    margin-left: 85%;
-    font-size: 2rem;
-    color: #fff;
-}
 
 
 }
-
 
 
 

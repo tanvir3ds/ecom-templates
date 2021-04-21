@@ -8,10 +8,10 @@
 
 .navbar-logo{
     width: 100%;
-    
+
     position: sticky;
     top: 0;
-   
+
 }
 
 #navbar{
@@ -22,12 +22,13 @@
     justify-content: center;
     align-items: center;
     
+    
 }
 
 .navbar-logo i{
     color: rgb(34, 34, 34);
     font-size: 20px;
-    position: sticky;
+    position: relative;
     background-color: white;
 
 }
